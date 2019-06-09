@@ -1,39 +1,67 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0"/>
-        <title>Vineet Padia</title>
-        <meta name="description" content="Vineet's stuff on the internet"/>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Overpass+Mono" rel="stylesheet">
-        <link href="vpadia.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <header>
-            <h1>Hyperloop</h1>
-            <aside>A collection of work over the course of my career and education.</aside>
-        </header>
-        <h3><a href="portfolio/hyperloop.html"> U. Maryland Hyperloop Suspension</a> </h3>
-            <p>Design, analysis and fabrication of a parallelogram linkage spring-damper suspension</p>
-            <img src="img/lev0.png">
-        <h3><a href="./diode.html"> Additive Manufacturing of a Microfluidic Diode</a> </h3>
-            <p>Design a new mezo-scale fluidic diode with Objet MJM</p>
-        <h3><a href="./interbody.html"> Lumbar Interbody Multi-Axis Loadcell</a> </h3>
-            <p>Design a tool that provides researchers the means to measure loads experienced by lumbar interbodies</p>
-            <img src="img/interbody.png">
-        <h3><a href="./demister.html"> Analysis and Scaling Study of a Inertial Vane Demister</a> </h3>
-            <p>A simulation that models a vane-impactor demister system for a scaled model facility</p>
-            <img src="img/demister.png">
-        <h3><a href="./dewalt.html"> Dewalt Battery re-design</a> </h3>
-            <p>Modification of a Dewalt Lipo battery so it can be charged during operation, therby preventing user-downtime</p>
-            <img src="img/iso_pack.png">
-        <h3><a href="./espreading.html"> Electrospreading</a> </h3>
-            <p>Modeling droplet spreading at various time instants on charged surfaces using the Electric Double Layer (EDL)</p>
-            <img src="img/drop.png">
-        <h3><a href="./dropdetection.html"> Droplet Detection</a> </h3>
-            <p>Development of a micro-droplet detector capable of monitoring dispenses and providing immediate
-feedback in the event of any failure.</p>
-        <h3><a href="./first.html"> FIRST Robotics</a> </h3>
-            <p>Design of components for the FIRST Robotics Competition</p>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no,
+initial-scale=1.0"/>
+    <title>Vineet Padia</title>
+    <meta name="description" content="Vineet's stuff on the internet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Overpass+Mono" rel="stylesheet">
+    <link href="../vpadia.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1>Hyperloop</h1>
+      <aside>A collection of work over the course of my career and education.</aside>
+    </header>
+    <h2>Introduction</h2>
+    <ul>
+      <li>
+        The Hyperloop is a new form of transportation which involves a levitating pod moving through a low pressure tube to allow for convenient, efficient, and safe transonic travel.
+      </li>
+
+      <li>
+        As one of the top five teams at Competition, UMD Loop is a team of 50 students at the University of Maryland building a functional half-scale prototype Hyperloop pod as part of SpaceX’s Hyperloop Pod Competition.
+      </li>
+
+      <li>
+        Our pod operates using entirely passive magnetic levitation, braking, and control in order to achieve speed in excess of 200 mph!
+      </li>
+
+    </ul>
+
+    <h2>Problem</h2>
+    <p>
+      Develop a levitation system that can support the weight of the pod, allow high speed travel and minimize the response to vibration.
+    </p>
+
+    <h3>System Description</h3>
+
+    <p>Passive magnetic levitation reduces friction with the track and avoiding common issues with wheels at high speeds. While magnetic drag has a large peak at low velocities prior to levitation, its lift to drag ratio only improves with speed.</p>
+
+    <p>Our levitation system consists of 4 magnet arrays in an aluminum, which will sit nominally at 0.2 in from the ground. These are positioned at the bottom of the array and have wheels rigidly attached to them so that the array will not contact the
+      ground. Using the</p>
+
+    <h2>Design</h2>
+
+    <ul>
+      <li>
+        The levitation array was designed to be able to levitate the pod after being pushed up to 5-6m/s.
+      </li>
+
+      <li>
+        The suspension was designed hold the weight of the frame, and to absorb any the loads during an acceleration or brake of 1g.
+      </li>
+
+      <li>
+        Each levitation array required a minimum harmonic frequency of 120 Hz, to safely avoid the frequency of gaps in the track at speed and to allow for safer handling.
+      </li>
+
+      <h3>Weight Reduction</h3>
+
+      <p>To solve this problem, the team and I decided to focus on parts that were shared between all levitation arrays
+      </p>
+
+      <p>Learned topology optimization in Optistruct to generate lightening patterns in the wheel plates and frame mount. Verified structural stability with NX Nastran FEA</p>
+  </body>
 </html>
