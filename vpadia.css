@@ -6,3 +6,10 @@ h1 {font-family: 'Overpass Mono', monospace; font-weight:800; line-height: 1.3;}
 h2 {font-family: 'Overpass Mono', monospace; line-height: 1.3; }
 h3 {font-family: 'Overpass Mono', monospace; font-weight:300;}
 h4 {font-family: 'Overpass Mono', monospace;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80xs%;
+}
