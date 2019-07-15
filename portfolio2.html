@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0" />
+  <title>Vineet Padia</title>
+  <meta name="description" content="Vineet's stuff on the internet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Overpass+Mono" rel="stylesheet">
+  <link href="vpadia.css" rel="stylesheet" type="text/css">
+
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <aside>A collection of work over the course of my career and education.</aside>
+  </header>
+
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="img/lev0.png" alt="Mountains" style="width:100%">
+        <h3><a href="portfolio/hyperloop.html"> U. Maryland Hyperloop Suspension </a> </h3>
+        <p>Design, analysis and fabrication of a parallelogram linkage spring-damper suspension</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+      <img src="img/interbody.png" alt="Lights" style="width:100%">
+        <h3><a href="portfolio/interbody.html">  Lumbar Interbody Multi-Axis Loadcell</a> </h3>
+        <p>Design of a tool to measure loads experienced by lumbar interbodies</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class="column">
+      <div class="content">
+      <img src="img/drop.png" alt="Nature" style="width:100%">
+        <h3><a href="portfolio/diode.html">Additive Manufacturing of a Microfluidic Diode </a> </h3>
+        <p>Design a new mezo-scale fluidic diode with Objet MJM</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+      <img src="img/drop.png" alt="Mountains" style="width:100%">
+        <h3><a href="portfolio/espreading.html">Electrospreading</a></h3>
+        <p>Modeling droplet spreading at various time instants on charged surfaces using the Electric Double Layer (EDL)</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="column">
+      <div class="content">
+      <img src="img/iso_pack.png" alt="Nature" style="width:100%">
+        <h3>Dewalt Battery Re-design</h3>
+        <p>Modification of a Dewalt Lipo battery so it can be charged during operation, therby preventing user-downtime</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+      <img src="img/demister.png" alt="Demister" style="width:100%">
+        <h3><a href="./demister.html">Analysis and Scaling Study of a Inertial Vane Demister </a> </h3>
+        <p>A simulation that models a vane-impactor demister system for a scaled model facility</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="content">
+      <img src="img/iso_pack.png" alt="dewalt" style="width:100%">
+        <h3><a href="portfolio/dropdetection.html"> Droplet Detection</a></h3>
+        <p>Development of a micro-droplet detector capable of monitoring dispenses and providing immediate feedback in the event of any failure.</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+      <img src="img/first.jpg" alt="First" style="width:100%">
+        <h3><a href="portfolio/FIRST.html"> FIRST Robotics </a> </h3>
+        <p>Design of components for the FIRST Robotics Competition</p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
